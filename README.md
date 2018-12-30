@@ -1,4 +1,4 @@
-# ToddsTodos
+# Electron with vueTS
 
 ## Project setup
 ```
@@ -25,5 +25,12 @@ npm run test
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Builds and starts the electron app
+```
+npm run belectron
+```
+
+### Starts the electron app without building (faster)
+```
+npm run electron
+```
